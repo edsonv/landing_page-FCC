@@ -1,0 +1,25 @@
+@import 'header.css';
+@import 'hero.css';
+@import 'atributos.css';
+@import 'uso.css';
+@import 'precios.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', system-ui;
+  background: #ecc294;
+  color: #262626;
+  text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+  body {
+    background-color: purple;
+  }
+}

@@ -1,0 +1,30 @@
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  /* padding: 4% 15%; */
+  & form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & input[type='email'] {
+      margin: .8rem 0;
+      line-height: 1.8rem;
+      padding: 0 .3rem;
+      width: 20%;
+      text-align: center;
+      border: 0;
+      border-radius: 5px;
+    }
+    & input[type='submit'] {
+      border: 0;
+      border-radius: 5px;
+      background: #ed551d;
+      color: #262626;
+      padding: 8px 12px;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  }
+}

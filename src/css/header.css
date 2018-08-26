@@ -1,0 +1,33 @@
+#header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: .5rem; */
+  height: 10vh;
+  background: #0d0000;
+
+  & img {
+    max-height: 9vh;
+    margin-left: 5%;
+  }
+
+  & #nav-bar {
+    margin-right: 10%;
+    width: 100%;
+    & ul {
+      display: flex;
+      justify-content: flex-end;
+      & li {
+        list-style: none;
+        padding: 0 2rem;
+        & a {
+          text-decoration: none;
+          font-weight: 400;
+          color: #ed551d;
+        }
+      }
+    }
+  }
+}

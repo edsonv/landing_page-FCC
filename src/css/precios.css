@@ -1,0 +1,21 @@
+#precios {
+  display: flex;
+  height: 90vmin;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4% 15%;
+  & table {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    border: 2px solid black;
+    & tr {
+      & th {
+        background: white;
+      }
+      & td {
+        width: 30vh;
+        padding: 1% 3%;
+      }
+    }
+  }
+}
